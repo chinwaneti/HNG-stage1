@@ -13,7 +13,7 @@ export default function Page() {
             <div data-testid="slackDisplayImage" className='flex items-center h-[80vh] bg-red-200 w-[25%] ml-28 rounded-b-full'>
             <Image src={pic} alt='dinma' width={200} height={300} className='mt-6 rounded-b-full ml-14' />
 
-              <div className='ml-[100%] w-[300%]'>
+              <div className='ml-[100%] '>
                 <ul className='flex  justify-start items-start space-x-20 mt-16'>
                  <Link href='/'><li><AiOutlineHome /></li></Link> 
                   <li><AiFillLinkedin /></li>
@@ -25,7 +25,7 @@ export default function Page() {
                   <p className=''>Hello there, Nice to meet you . I am</p>
                   <h1 data-testid="slackUserName" className='font-bold text-3xl my-3 text-blue-600'>Chidinma Nwaneti</h1>
                   <p  data-testid="myTrack" >My Track is <span className=' text-2xl' >Frontend</span></p>
-                 <p>"Crafting the Pixels, Weaving the Web – Frontend Magic in Every Click!"</p>
+                 <p>Crafting the Pixels, Weaving the Web. Frontend Magic in Every Click!</p>
                 <Link href='https://github.com/chinwaneti/HNG-stage1' data-testid="githubURL">
   <button className='rounded-3xl flex justify-between bg-blue-600 w-32 my-5 p-3 hover:bg-blue-800 hover:shadow-xl hover:border-2 hover:border-black font-bold'>
     <AiOutlineGithub size={25} className='mx-auto'/>
