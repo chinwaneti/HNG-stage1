@@ -10,8 +10,8 @@ export default function Page() {
       <div>
         <div>
           <header className='flex items-start'>
-            <div data-testid="slackDisplayImage" className='flex items-center h-[80vh] bg-red-200 w-[25%] ml-28 rounded-b-full'>
-            <Image src={pic} alt='dinma' width={200} height={300} className='mt-6 rounded-b-full ml-14' />
+            <div data-testid="slackDisplayImage" className='flex items-center h-[70vh] bg-red-200 w-[25%] ml-28 rounded-b-full'>
+            <Image src={pic} alt='dinma' width={200} height={300} className=' rounded-b-full mt-20 ml-14' />
 
               <div className='ml-[100%] '>
                 <ul className='flex  justify-start items-start space-x-20 mt-16'>
